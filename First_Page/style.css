@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bungee+Spice&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  border: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(207, 206, 206);
+  line-height: 1.8rem;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+h2 {
+  color: rgb(47, 47, 49);
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+/* ============== NavBar Section =========== */
+
+.nav-container {
+  display: flex;
+  gap: 2rem;
+  padding: 0.8rem 3rem;
+  background-color: #0a1327;
+  color: white;
+  font-weight: 500;
+}
+
+.nav-container a {
+  font-size: 1.4rem;
+  color: white;
+  padding-top: 0.5rem;
+  letter-spacing: 3px;
+}
+
+.nav-container img {
+  width: 50px;
+}
+
+/* ================= Total Section ============= */
+
+.orders {
+  display: flex;
+  justify-content: space-around;
+  margin: 4rem auto;
+  height: 12rem;
+}
+
+.order {
+  width: 30%;
+  height: 10rem;
+  margin-top: 1rem;
+  text-align: center;
+  padding-top: 2rem;
+  overflow: hidden;
+  border-radius: 7px;
+  box-shadow: 27px 2px 334px 131px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 27px 2px 334px 131px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 27px 2px 334px 131px rgba(0, 0, 0, 1);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.order:hover {
+  scale: 1.05;
+}
+
+.total-order {
+  background-color: #558fca;
+  box-shadow: -6px 3px 79px -39px rgba(0, 0, 0, 0.71) inset;
+  -webkit-box-shadow: -6px 3px 79px -39px rgba(0, 0, 0, 0.71) inset;
+  -moz-box-shadow: -6px 3px 79px -39px rgba(0, 0, 0, 0.71) inset;
+}
+
+.order-delivered {
+  background-color: #2d73c9;
+  box-shadow: -6px 3px 79px -39px rgba(0, 0, 0, 0.71) inset;
+  -webkit-box-shadow: -6px 3px 79px -39px rgba(0, 0, 0, 0.71) inset;
+  -moz-box-shadow: -6px 3px 79px -39px rgba(0, 0, 0, 0.71) inset;
+}
+
+.order-pendeng {
+  background-color: #5777cf;
+  box-shadow: -6px 3px 79px -39px rgba(0, 0, 0, 0.71) inset;
+  -webkit-box-shadow: -6px 3px 79px -39px rgba(0, 0, 0, 0.71) inset;
+  -moz-box-shadow: -6px 3px 79px -39px rgba(0, 0, 0, 0.71) inset;
+}
+
+.common {
+  font-size: 1.5rem;
+  padding-bottom: 4rem;
+}
+
+.one {
+  background-color: #5e9cda;
+  box-shadow: -6px 3px 79px -39px rgba(0, 0, 0, 0.71) inset;
+  -webkit-box-shadow: -6px 3px 79px -39px rgba(0, 0, 0, 0.71) inset;
+  -moz-box-shadow: -6px 3px 79px -39px rgba(0, 0, 0, 0.71) inset;
+}
+
+.two {
+  background-color: #327eda;
+  box-shadow: -6px 3px 79px -39px rgba(0, 0, 0, 0.71) inset;
+  -webkit-box-shadow: -6px 3px 79px -39px rgba(0, 0, 0, 0.71) inset;
+  -moz-box-shadow: -6px 3px 79px -39px rgba(0, 0, 0, 0.71) inset;
+}
+
+.three {
+  background-color: #6083e4;
+  box-shadow: -6px 3px 79px -39px rgba(0, 0, 0, 0.71) inset;
+  -webkit-box-shadow: -6px 3px 79px -39px rgba(0, 0, 0, 0.71) inset;
+  -moz-box-shadow: -6px 3px 79px -39px rgba(0, 0, 0, 0.71) inset;
+}
+
+.common h2 {
+  padding-top: 1.5rem;
+}
+
+/* ================= Create Customer table ============= */
+
+.order-details {
+  display: grid;
+  grid-template-columns: 40% 58%;
+  gap: 2rem;
+  margin-top: 6rem;
+}
+
+.customers {
+  height: fit-content;
+}
+
+.dashboard {
+  background-color: rgb(228, 228, 228);
+  height: 13rem;
+  overflow: hidden;
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+
+.dashboard a {
+  background-color: rgb(4, 60, 97);
+  color: white;
+  display: block;
+  margin: 1.89rem 2rem;
+  padding: 0.2rem;
+  text-align: center;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 1.3rem;
+  letter-spacing: 3px;
+  transition: all 0.4s;
+}
+
+.dashboard a:hover {
+  letter-spacing: 4px;
+  background-color: rgb(22, 35, 68);
+}
+
+.dashboard a:active {
+  scale: 0.9;
+}
+
+.border {
+  border: 1px solid rgb(196, 194, 194);
+  margin-bottom: 1rem;
+}
+
+.border-bottom {
+  border: 1px solid rgb(196, 194, 194);
+  margin-top: 1rem;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+/*======================Table============================= */
+
+tbody th,
+td {
+  font-size: 1.3rem;
+  padding: 1rem 8rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-bottom: 1px solid rgb(207, 207, 207);
+  cursor: pointer;
+  width: 50rem;
+}
+
+thead {
+  font-size: 1.3rem;
+  padding-top: 1rem;
+}
+
+thead tr,
+th {
+  border-bottom: 1px solid rgb(207, 207, 207);
+  padding-bottom: 1rem;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(221, 221, 221);
+}
+
+td {
+  text-align: center;
+}
